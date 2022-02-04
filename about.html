@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+  
+    <title>HI-JOB</title>
+   <script src="main.js">
+
+   </script>
+    
+</head>
+
+<body>
+  <div class="herr">
+
+    </div>
+
+    
+    <div id="mySidenav" class="sidenav">
+     
+     
+      <a href="#" id="blog"><form method="get" action="/index.html">
+        <button type="submit" id="blog" > JOBS</button>
+    </form></a>
+
+    <a href="#" id="blog"><form method="get" action="/index.html">
+      <button type="submit" id="blog1" >INTERNSHIPS</button>
+  </form></a>
+
+  <a href="#" id="blog"><form method="get" action="/index.html">
+    <button type="submit" id="blog2" >PROGRAM</button>
+</form></a>
+</div> 
+
+  
+
+
+
+    <nav>
+      <img src="hihi.png" class="logo">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONSTACT</a></li>
+       
+
+      </ul>
+    </nav>
+    <header>
+      <h1 id="bloger">some of the companies:<br><br> </h1>
+      
+    </header>
+    <style>
+      * {box-sizing:border-box}
+      body {font-family: Verdana,sans-serif;margin:0}
+      .mySlides {display:none}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor:pointer;
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+      </style>
+      <body>
+      
+      <div class="slideshow-container">
+      
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <a href="https://www.cisco.com/c/en_il/index.html?dtid=pseggl000183&oid=0&ccid=cc000870&_bk=cisco&_bt=504849487379&_bm=e&_bn=g&_bg=110171390284&gclid=Cj0KCQiAuvOPBhDXARIsAKzLQ8FS3pnymNrxl723Gc8K2WV2MpHSJo1QmEM6CPOs5BkWg7Tife6P5X4aAqz4EALw_wcB&gclsrc=aw.ds"> <img src="download.png" style="width:100%" ></a>
+        <div class="text"></div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+       <a href="https://www.serviotech.com/"> <img src="images (1).png" style="width:100%"></a>
+        <div class="text">Caption Two</div>
+      </div>
+      
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 /3 </div>
+        <a href="https://www.google.com/search/howsearchworks/"><img src="gogo.png" style="width:100%"></a>
+        <div class="text">Caption four</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+      
+  <!---->
+  
+      <div class="indecator"></div>
+      <span></span>
+      <span></span>
+      <span class="activate"></span>
+  
+  
+    </div>
+    <div>
+  
+    </div>
+  
+  
+      <div id="mySidenav" class="sidenav">
+       
+       
+        <a href="#" id="blog"><form method="get" action="/youtube.html">
+          <button type="submit" id="blog" >RELAX</button>
+      </form></a>
+  
+  
+      </div>
+      
+
+
+ 
+
+      <div class="test" style="text-align:center; color:green"></div>
+ 
+      <div class="page-wrapper">
+        
+      </div>
+      //
+      
+      
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <h2>About</h2>
+            <a href="#">Jobs</a>
+            <a href="#">Companies</a>
+            <a href="#">Internships</a>
+            <a href="#">The program</a>
+          </div>
+          <div class="footer-heading footer-2">
+            <h2>CONTACT US</h2>
+            <a href="#">liliantaha2408@gmail.com</a>
+            <a href="#">0548340153</a>
+            <a href="#">SOCIALS</a>
+      
+           
+       
+          </div>
+          <div class="footer-heading footer-3">
+            <h2>SUPPORT</h2>
+           
+      
+          </div>
+      
+        </div>
+      </div>
+      
+
+</body>
+</html>
