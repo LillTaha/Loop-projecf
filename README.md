@@ -1,2 +1,2 @@
-# Loop-projecf
+# web-projecf
 Html, css and JavaScript
